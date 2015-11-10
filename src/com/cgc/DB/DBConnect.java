@@ -14,7 +14,7 @@ public class DBConnect {
     public static String CONNECTION_URL = "";
     public static String CONNECTION_URL_MA = "";
     public static final String USERNAME = "cG9zdGdyZXM=";
-    public static final String PASSWORD = "U3lzdGVtYWRtaW4wMDc=";
+    public static final String PASSWORD = "U3VwZXJBZG1pbjAwNw==";
 
     public String db_postgres_jdbc = "jdbc:postgresql://";
     public String db_postgres_server = "";
