@@ -21,8 +21,8 @@ public class Process_transaction_wh_summaryDB {
     public void generater_transaction_process(String date_from, String date_to, String process_id, String table, String doc_type, String r, String username) throws Exception {
         ArrayList<DataBean_Transaction_Process_wh_summary> obj_AL_process_transaction = new ArrayList<>();
         DataBean_Transaction_Process_wh_summary bean = new DataBean_Transaction_Process_wh_summary();
-        Connection con = new DBConnect().openTestConnection();
-        Connection Conn2 = new DBConnect().openTestConnection();
+        Connection con = new DBConnect().openConnection_ERP_Y();
+        Connection Conn2 = new DBConnect().openConnection_ERP_Y();
         ResultSet rs, rec_periods;
         PreparedStatement p = null;
         //Random r = new Random();
